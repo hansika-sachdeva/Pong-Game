@@ -17,7 +17,9 @@ scoreboard = Scoreboard()
 
 screen.listen()
 screen.onkeypress(left_paddle.up, "w")
+screen.onkeypress(left_paddle.up, "W")
 screen.onkeypress(left_paddle.down, "s")
+screen.onkeypress(left_paddle.down, "S")
 screen.onkeypress(right_paddle.up, "Up")
 screen.onkeypress(right_paddle.down, "Down")
 
